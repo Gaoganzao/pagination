@@ -2,9 +2,9 @@
 
 #### 使用
 
-1. 引入样式文件`<link rel="stylesheet" href="./style.css">`
+1. 引入样式文件`<link rel="stylesheet" href="./pagination.css">`
 
-2. 引入js代码文件` <script src="./paginationself.js"></script>`
+2. 引入js代码文件` <script src="./pagination.js"></script>`
 
 3. js代码添加
 
