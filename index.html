@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分页器演示</title>
+    <link rel="stylesheet" href="./pagination.css">
+    <script src="./pagination.js"></script>
+</head>
+
+<body>
+    <div id="pagination"></div>
+    <script>
+        // 使用
+        let $pager = document.getElementById("pagination");
+        let config = {
+            page: {
+                current: 2,
+                total: 25
+            },
+            text: {
+            }
+        };
+        function callback(page) {
+            console.log(`当前页码为: ${page}`);
+        }
+        new Pagination($pager, config, callback);
+    </script>
+</body>
+
+</html>

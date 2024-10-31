@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#pagination {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e5e5e5;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination .public,
+#pagination .self-first,
+#pagination .self-prev,
+#pagination .self-next,
+#pagination .self-last {
+    border: 1px solid #e5e5e5;
+    margin: 0px 5px;
+    padding: 5px 5px;
+    cursor: pointer;
+    min-width: 40px;
+    text-align: center;
+    background-color: white;
+    user-select: none;
+}
+
+#pagination .publichover {
+    border: 1px solid #ff4400;
+    color: #ff4400;
+}
+
+#pagination .self-first:hover,
+#pagination .self-prev:hover,
+#pagination .self-next:hover,
+#pagination .self-last:hover {
+    border: 1px solid #ff4400;
+    color: #ff4400;
+}
+
+#pagination .self-first.noactive,
+#pagination .self-prev.noactive,
+#pagination .self-next.noactive,
+#pagination .self-last.noactive {
+    color: #cccccc;
+}
+
+#pagination .self-first.noactive:hover,
+#pagination .self-prev.noactive:hover,
+#pagination .self-next.noactive:hover,
+#pagination .self-last.noactive:hover {
+    border: 1px solid #e5e5e5;
+}
+
+#pagination .self-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination .self-list div {
+    border: 1px solid #e5e5e5;
+    margin: 0px 5px;
+    padding: 5px 0px;
+    color: #3e3e3e;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    min-width: 35px;
+    user-select: none;
+}
+
+#pagination .self-list div:hover {
+    border: 1px solid #ff4400;
+    color: #ff4400;
+}
+
+#pagination .self-list div.active {
+    color: white;
+    background-color: #ff4400;
+}
+
+#pagination .self-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination .self-list div {
+    border: 1px solid #e5e5e5;
+    margin: 0px 5px;
+    padding: 5px 0px;
+    color: #3e3e3e;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    min-width: 35px;
+    user-select: none;
+}
+
+#pagination .self-list div:hover {
+    border: 1px solid #ff4400;
+    color: #ff4400;
+}
+
+#pagination .self-list div.active {
+    color: white;
+    background-color: #ff4400;
+}
+
+#pagination .self-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination .self-list div {
+    border: 1px solid #e5e5e5;
+    margin: 0px 5px;
+    padding: 5px 0px;
+    color: #3e3e3e;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    min-width: 35px;
+    user-select: none;
+}
+
+#pagination .self-list div:hover {
+    border: 1px solid #ff4400;
+    color: #ff4400;
+}
+
+#pagination .self-list div.active {
+    color: white;
+    background-color: #ff4400;
+}
+
+#pagination .self-input {
+    text-align: center;
+    width: 30px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+#pagination button.self-button {
+    margin: 0px 5px;
+    min-width: 50px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+}
+
+#pagination button.self-button:hover {
+    border: 1px solid #ff4400;
+    color: #ff4400;
+}
